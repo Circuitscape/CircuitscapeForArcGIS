@@ -19,7 +19,7 @@ import arcpy
 
 # arcpy.CheckOutExtension("spatial")
 
-_SCRIPT_NAME = "cs_arc.py version 2013-05-29"
+_SCRIPT_NAME = "cs_arc.py version 2013-07-12"
 
 
 gwarn = arcpy.AddWarning

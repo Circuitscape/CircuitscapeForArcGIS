@@ -12,7 +12,7 @@ import sys
 import traceback
 from numpy import *
 import string
-import ConfigParser
+import configparser
 import shutil
 import arcpy
 # from arcpy.sa import *
@@ -540,7 +540,7 @@ def writeCircuitscapeConfigFile(configFile, options):
     """Creates a configuration file for calling Circuitscape.
 
     """
-    config = ConfigParser.ConfigParser()
+    config = configparser.ConfigParser()
 
     sections={}
     section='Version'
